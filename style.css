@@ -9,8 +9,8 @@ body {
 }
 
 img {
-	width: 100px;
-	height: 100px;
+/*	width: 100px;
+	height: 100px;*/
 }
 
 /*Styling for the navbar*/
@@ -67,31 +67,35 @@ p {
 	display: inline-block;
 }
 
-#title {
-	width: 100%;
-}
-
-#welcome {
-	clear: both;
-}
-
 /*Styling for the image elements*/
 
-.header-photos {
-	width: 49%;
+#header {
+	margin-top: 16px;
+	margin-left: 16px;	
+	width: 100%;
 	display: inline-block;
-	float: left;
 }
 
 .image-pair {
-	margin-top: 10px;
+	width: 48%;
 	display: inline-block;
-	width: 49%;
-	float: left;
 }
 
-#pair-one {
-	clear: left;
+#image1, #image2, #image3, #image4 {
+	height: 150px;
+	width: 48%;
+	display: inline-block;
+	background-size: cover;
 }
 
+#image1 {background-image: url(http://1.bp.blogspot.com/-5IAa1a3XX1A/T93DCjNgNHI/AAAAAAAAALM/GnDYT40wmP0/s1600/1215145026AllthoseKittens.jpg);
+}
 
+#image2 {background-image: url(http://wondrouspics.com/wp-content/uploads/2011/12/Ragdoll_kittens.jpg)
+}
+
+#image3 {background-image: url(http://images4.fanpop.com/image/photos/16100000/Cute-Kitten-kittens-16122946-1280-800.jpg);
+}
+
+#image4 {background-image: url(http://1.bp.blogspot.com/-xzYw9bwU11s/T_VUmLlVG2I/AAAAAAAAD1o/RFswfHEUtAk/s1600/Kittens+wallpapers+2.jpg);
+}
