@@ -21,6 +21,7 @@ nav {
 	margin: -8px;
 	background-color: #FF9800;
 	position: fixed;
+	border-bottom: solid black 2px;
 }
 
 ul {
@@ -36,6 +37,7 @@ ul {
 li {
     float: left;
     padding: 12px;
+    border-right: solid black 2px;
 }
 
 li img {
@@ -46,7 +48,8 @@ li img {
 
 #name {
 	color: black;
-	margin: 4px;
+	margin: 2px;
+	padding: 6px;
 }
 
 /* Change the link color on hover */
@@ -127,6 +130,8 @@ p {
 
 .content-text {
 	float: left;
+	max-width: 70%;
+	display: inline-block;
 }
 
 .content-image {
@@ -136,6 +141,29 @@ p {
 	width: 180px;
 	height: 150px;
 	background-size: cover;
+	display: inline-block;
+	border: solid 2px #424242;
+}
+
+@media only screen and (max-width: 700px){
+	.content-text{
+		max-width: 100%;
+		display: block;
+		float: none;
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.content-image{
+		display: block;
+		float: none;
+		margin: auto;
+	}
+
+	.vertical-div{
+		width: 100%;
+	}
+
 }
 
 
