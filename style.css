@@ -2,7 +2,10 @@
 	font-family: verdana;
 	font-size: 14px;
 	border: solid black 1px;
-	float: left;
+}
+
+body {
+	background-color: #FFF3E0;
 }
 
 img {
@@ -15,7 +18,7 @@ img {
 nav {
 	display: block;
 	width: 100%;
-	background-color: #333;
+	background-color: #FF9800;
 }
 
 ul {
@@ -23,7 +26,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #FF9800;
 }
 
 li {
@@ -32,7 +35,7 @@ li {
 
 ul li {
     display: block;
-    color: white;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -48,6 +51,14 @@ ul li:hover {
 
 h2 {
 	font-size: 32px;
+	color: #424242;
+	display: block;
+
+}
+
+p {
+	color: #424242;
+	display: inline-block;
 }
 
 #title {
@@ -62,11 +73,14 @@ h2 {
 
 .header-photos {
 	width: 49%;
+	display: inline-block;
+	float: left;
 }
 
 .image-pair {
-	display inline-block;
+	display: inline-block;
 	width: 49%;
+	float: left;
 }
 
 #pair-one {
