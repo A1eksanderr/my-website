@@ -1,6 +1,6 @@
 *{
 	font-family: verdana;
-	font-size: 18px;
+	font-size: 24px;
 	/*border: solid black 1px;*/
 }
 
@@ -99,27 +99,7 @@ p {
 	width: 48%;
 	display: inline-block;
 	background-size: cover;
-}
-
-#image1 {background-image: url(http://1.bp.blogspot.com/-5IAa1a3XX1A/T93DCjNgNHI/AAAAAAAAALM/GnDYT40wmP0/s1600/1215145026AllthoseKittens.jpg);
-}
-
-#image2 {background-image: url(http://wondrouspics.com/wp-content/uploads/2011/12/Ragdoll_kittens.jpg)
-}
-
-#image3 {background-image: url(http://images4.fanpop.com/image/photos/16100000/Cute-Kitten-kittens-16122946-1280-800.jpg);
-}
-
-#image4 {background-image: url(http://1.bp.blogspot.com/-xzYw9bwU11s/T_VUmLlVG2I/AAAAAAAAD1o/RFswfHEUtAk/s1600/Kittens+wallpapers+2.jpg);
-}
-
-#image-about {background-image: url(http://1.bp.blogspot.com/-9Z45_45PdN0/T5ZVrvnx7MI/AAAAAAAACLI/_omn-glE4iM/s1600/Maine+Coon+kittens.jpg);
-}
-
-#image-hobbies {background-image: url(http://images4.fanpop.com/image/photos/16000000/Cute-Kitten-kittens-16096566-1280-800.jpg);
-}
-
-#image-interests {background-image: url(http://www.warrenphotographic.co.uk/photography/bigs/13319-Three-cute-kittens-white-background.jpg);
+	background-position: center;
 }
 
 /*Styling for the content blocks*/
@@ -144,6 +124,15 @@ p {
 	display: inline-block;
 	border: solid 2px #424242;
 }
+
+.gallery div {
+	display: inline-block;
+	height: 200px;
+	width: 28%;
+	background-size: cover;
+}
+
+
 
 @media only screen and (max-width: 700px){
 	.content-text{

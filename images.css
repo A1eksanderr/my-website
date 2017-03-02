@@ -1,0 +1,28 @@
+#image1 {background-image: url("res/image1.jpg"); }
+#image2 {background-image: url("res/image2.jpg"); 
+background-position: top;
+}
+#image3 {background-image: url("res/image3.jpg"); }
+#image4 {background-image: url("res/image4.jpg"); }
+
+
+
+#image-about {background-image: url("res/about.jpg");
+background-position: center;
+}
+
+#image-hobbies {background-image: url("res/hobbies.jpg");
+}
+
+#image-interests {background-image: url("res/interests.jpg");
+}
+
+#gallery1 {background-image: url("res/gallery1.jpg"); }
+#gallery2 {background-image: url("res/gallery2.jpg"); }
+#gallery3 {background-image: url("res/gallery3.jpg"); }
+#gallery4 {background-image: url("res/gallery4.jpg"); }
+#gallery5 {background-image: url("res/gallery5.jpg"); }
+#gallery6 {background-image: url("res/gallery6.jpg"); }
+#gallery7 {background-image: url("res/gallery7.jpg"); }
+#gallery8 {background-image: url("res/gallery8.jpg"); }
+#gallery9 {background-image: url("res/gallery9.jpg"); }
