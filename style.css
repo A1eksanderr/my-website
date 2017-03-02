@@ -1,7 +1,7 @@
 *{
 	font-family: verdana;
 	font-size: 14px;
-	border: solid black 1px;
+	/*border: solid black 1px;*/
 }
 
 body {
@@ -25,24 +25,30 @@ ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    width: 100%;
     overflow: hidden;
     background-color: #FF9800;
+    float: left;
 }
 
 li {
     float: left;
+    padding: 12px;
 }
 
-ul li {
-    display: block;
-    color: black;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+li img {
+	margin: 0;
+	width: 50px;
+	height: 50px;
+}
+
+#name {
+	color: black;
+	margin: 4px;
 }
 
 /* Change the link color on hover */
-ul li:hover {
+.navbar-icons:hover {
     background-color: #555;
     color: white;
 }
@@ -78,6 +84,7 @@ p {
 }
 
 .image-pair {
+	margin-top: 10px;
 	display: inline-block;
 	width: 49%;
 	float: left;
