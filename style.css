@@ -157,7 +157,7 @@ p {
 	.content-image{
 		display: block;
 		float: none;
-		margin: auto;
+		margin: 0 auto;
 	}
 
 	.vertical-div{
