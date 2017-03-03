@@ -164,19 +164,24 @@ header {
 
 /*Styling for the gallery*/
 
-.gallery {
-	margin: 0 auto;
+.gallery > div {
+	display: inline-block;
+	margin: 20px;
+	margin-bottom: 50px;
 }
 
-.gallery div {
-	display: inline-block;
+.gallery div div {
 	height: 350px;
 	width: 350px;
-	margin: 20px;
 	background-size: cover;
 	background-position: center;
-	/*float: left;*/
 	border: solid 2px #424242;
+}
+
+.gallery div p {
+	font-size: 20px;
+	display: block;
+	text-decoration: underline;
 }
 
 /*Styling for the contact methods*/
@@ -201,6 +206,7 @@ header {
 
 .contact-methods div a {
 	margin: 20px;
+	top: 100px;
 }
 
 
