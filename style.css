@@ -64,7 +64,7 @@ li img {
 	border: solid black 2px;
 }
 
-.navbar-icons:hover {
+.dropdown:hover {
     background-color: #555;
     color: white;
 }
@@ -118,7 +118,7 @@ p {
 
 /*Styling for the image elements*/
 
-#header {
+header {
 	margin-top: 110px;
 	margin-left: 16px;	
 	width: 100%;
