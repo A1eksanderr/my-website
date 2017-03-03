@@ -1,7 +1,7 @@
 *{
 	font-family: verdana;
 	font-size: 24px;
-	/*border: solid black 1px;*/
+	border: solid black 1px;
 }
 
 body {
@@ -125,11 +125,19 @@ p {
 	border: solid 2px #424242;
 }
 
+.gallery {
+	margin: 0 auto;
+}
+
 .gallery div {
 	display: inline-block;
-	height: 200px;
-	width: 28%;
+	height: 350px;
+	width: 350px;
+	margin: 20px;
 	background-size: cover;
+	background-position: center;
+	/*float: left;*/
+	border: solid 2px #424242;
 }
 
 
