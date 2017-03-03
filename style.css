@@ -41,12 +41,12 @@ li {
 }
 
 li img {
-	margin: 0;
 	width: 50px;
 	height: 50px;
+	margin: 0;
 }
 
-#name {
+.navbar-text {
 	color: black;
 	margin: 2px;
 	padding: 6px;
@@ -90,16 +90,17 @@ p {
 }
 
 .image-pair {
-	width: 48%;
 	display: inline-block;
 }
 
 #image1, #image2, #image3, #image4 {
 	height: 150px;
-	width: 48%;
+	width: 300px;
 	display: inline-block;
 	background-size: cover;
 	background-position: center;
+	border: solid 2px #424242;
+
 }
 
 /*Styling for the content blocks*/
@@ -170,6 +171,11 @@ p {
 
 
 @media only screen and (max-width: 700px){
+	
+	#second-pair{
+		display: none;
+	}
+
 	.content-text{
 		max-width: 100%;
 		display: block;
