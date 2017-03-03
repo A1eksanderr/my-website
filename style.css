@@ -207,6 +207,7 @@ header {
 .contact-methods div a {
 	margin: 20px;
 	top: 100px;
+	text-decoration: none;
 }
 
 
