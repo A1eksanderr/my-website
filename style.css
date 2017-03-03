@@ -52,11 +52,47 @@ li img {
 	padding: 6px;
 }
 
+
 /* Change the link color on hover */
+
+#home-text {
+	background-color: #FF9800;
+	left: 241px;
+	top: 79px;
+	width: 126px;
+	position: absolute;
+	border: solid black 2px;
+}
+
 .navbar-icons:hover {
     background-color: #555;
     color: white;
 }
+
+/*Styling for the dropdown descriptors*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    /*display: none;*/
+    position: fixed;
+    left: 480px;
+    top: 10px;
+    opacity: 0;
+
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+    background-color: #FF9800;
+    opacity: 1;
+    transition: opacity 1s;
+
+}
+
 
 /*Styling for the text elements*/
 
