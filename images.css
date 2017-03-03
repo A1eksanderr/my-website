@@ -26,3 +26,9 @@ background-position: center;
 #gallery7 {background-image: url("res/gallery7.jpg"); }
 #gallery8 {background-image: url("res/gallery8.jpg"); }
 #gallery9 {background-image: url("res/gallery9.jpg"); }
+
+#contact1 {background-image: url("res/email.png"); }
+#contact2 {background-image: url("res/linkedin.png"); }
+#contact3 {background-image: url("res/facebook.png"); }
+#contact4 {background-image: url("res/twitter.png"); }
+

@@ -1,7 +1,7 @@
 *{
 	font-family: verdana;
 	font-size: 24px;
-	border: solid black 1px;
+	/*border: solid black 1px;*/
 }
 
 body {
@@ -125,6 +125,8 @@ p {
 	border: solid 2px #424242;
 }
 
+/*Styling for the gallery*/
+
 .gallery {
 	margin: 0 auto;
 }
@@ -139,6 +141,31 @@ p {
 	/*float: left;*/
 	border: solid 2px #424242;
 }
+
+/*Styling for the contact methods*/
+
+.contact-methods > div {
+	height: 150px;
+	width: 520px;
+	margin: 10px;
+	float: left;
+}
+
+.contact-icons {
+	width: 100px;
+	height: 100px;
+	margin: 10px;
+	float: left;
+	background-size: cover;
+	background-position: center;
+	display: inline-block;
+	/*border: solid black 1px;*/
+}
+
+.contact-methods div a {
+	margin: 20px;
+}
+
 
 
 
